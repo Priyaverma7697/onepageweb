@@ -1,0 +1,424 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+#head1{
+    width: 100%;
+    background-color: black;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    z-index: 10000;
+    position: fixed;
+}
+#head1 ul{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    list-style-type: none;
+    height: 80px;
+    margin-top: 20px;
+
+    button{
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 10px; 
+    left: 850px;
+    border-radius: 20px;
+    color: white;
+    background-color: blueviolet;
+    }
+}
+ul a:hover{
+    color: white;
+}
+ul i:hover{
+    color: rgb(24, 187, 92);
+}
+#head1 button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+#div1 img{
+    width: 100%;
+}
+#div1 h1{
+    position: absolute;
+    top: 300px;
+    color: white;
+    left: 120px;
+    font-size: 80px;
+}
+#div1 h2{
+    position: absolute;
+    top: 250px;
+    color: white;
+    left: 120px;
+    font-size: 50px;
+}
+#div1 p{
+    position: absolute;
+    top: 400px;
+    color: white;
+    left: 120px;
+    font-size: 36px;
+}
+#div1 button{
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 650px;
+    left: 120px;
+    border-radius: 20px;
+    color: white;
+    background-color: blueviolet;
+}
+#div1 button:hover{
+    color: black;
+    background-color: white;
+}
+#div2 img{
+    position: absolute;
+    top: 170px;
+    right: 10px;
+    border-radius: 50px;
+}
+#div3{
+    background-color: black;
+}
+.div4 img{
+    position: absolute;
+    right: 110px;
+    top: 1000px;
+}
+#div5{
+    position: absolute;
+    width: 50px;
+}
+.div5 h5{
+    position: absolute;
+    color: white;
+    top: 1100px;
+    left: 120px;
+    font-size: 20px;
+}
+.div5 h1{
+    position: absolute;
+    color: white;
+    top: 1140px;
+    left: 120px;
+    font-size: 80px;
+}
+.div5 h2{
+    position: absolute;
+    color: white;
+    top: 1190px;
+    left: 120px;
+    font-size: 60px;
+}
+.div5 h3{
+    position: absolute;
+    color: white;
+    top: 1235px;
+    left: 120px;
+    font-size: 60px;
+}
+.div5 p{
+    width: 20%;
+    position: absolute;
+    color: white;
+    top: 1330px;
+    left: 120px;
+    font-size: 50px;
+}
+
+#div6{
+    background-image: url(./images/background\ black.webp);
+}
+.div7{
+h3{
+    top: 2300px;
+    font-size: 25px;
+    left: 800px;
+}
+h1{
+    top: 2400px;
+    left: 800px;
+}
+h2{
+    top: 2500px;
+    left: 800px;
+}
+
+}
+.div8{
+    color: white;
+    text-align: center;
+    h1{
+    font-size: 55px;
+    }
+    h5{
+        font-size: 25px;
+    }
+    h6{
+        font-size: 25px;
+    }
+    button{
+        width: 150px;
+        height: 45px;
+        position: absolute;
+        left: 650px;
+        top: 3350px;
+        border-radius: 20px;
+        color: white;
+        background-color: blueviolet;
+    }
+    button:hover{
+        color: black;
+        background-color: white;
+    }
+}
+#footsec{
+    border: 7px solid black;
+    background-color: black;
+    height: 200px;
+}
+
+#footsec{
+    justify-content: flex-start;
+    size: 50px;
+    padding: 50px;
+}
+.cl1{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;   
+}
+.cl1 li a{
+    gap: 6px;
+    text-decoration: none;
+    color: azure;
+    
+}
+.cl1 li a:hover{
+    text-decoration: none;
+    color: rgb(226, 43, 52);
+    /* gap: 10px;   
+    text-decoration: none;
+    word-spacing: 10px; */
+    
+}
+.cl1 i{
+    color: white;
+}
+.cl1 i:hover{
+    color: rgb(90, 90, 177);
+    /* justify-items: end; */
+    /* text-align: end; */
+    /* gap: 50px; */
+
+
+}
+/* ::view-transition */
+
+.cl3 p{
+    color: azure;
+    display: flex;
+    margin-left: 60px;
+}
+.email{
+    justify-content: end;
+    /* float: right; */
+    /* transition:backgroundcolor; */
+    /* transition: background color 1 sec east; */  
+}
+/* media query start for mobile */
+
+@media (max-width:450px){
+   
+#head1 {
+    width: 100%;
+    position: fixed;
+    display: flex  ;
+
+}
+#head1 ul{
+    width: 100%;
+}
+#div1{
+    width: 100%;
+}
+#div1{
+    img{
+        width: 1185px;
+        height: 750px;
+    }
+    h2{
+        top: 150px;
+        left: 30px;
+        font-size: 40px;
+    }
+    h1{
+        width: 50px;
+        top: 250px;
+        left: 25px;
+        font-size: 40px;
+    }
+    p{
+        width: 40%px;
+        top: 390px;
+        left: 25px;
+        font-size: 20px;
+    }
+    button{
+        left: 250px;
+    }
+}
+#div2{
+    /* watch image */
+    img{
+        width: 50;
+        top:200px;
+        left: 495px;
+    }
+}
+#div3{
+    background-color: black;
+    width: 850px;
+    /* img{
+    width: 950px;   
+    } */
+}
+.div4 img{
+    /* phone image */
+    position: absolute;
+    left: 820px;
+    top: 820px;
+   
+}
+#div5{
+    position: absolute;
+    width: 50px;
+}
+.div5 h5{
+    position: absolute;
+    color: white;
+    top: 500px;
+    left: 10px;
+    font-size: 15px;
+}
+.div5 h1{
+    position: absolute;
+    color: white;
+    top: 520px;
+    left: 10px;
+    font-size: 30px;
+}
+.div5 h2{
+    position: absolute;
+    color: white;
+    top: 550px;
+    left: 10px;
+    font-size: 25px;
+}
+.div5 h3{
+    position: absolute;
+    color: white;
+    top: 900px;
+    left: 10px;
+    font-size: 40px;
+}
+.div5 p{
+    width: 50%;
+    position: absolute;
+    color: white;
+    top: 950px;
+    left: 10px;
+    font-size: 20px;
+}
+#div6{
+    background-image: url(./images/background\ black.webp);
+    width: 1200px;
+    background-size: cover;
+}
+.div7{
+h3{
+    top: 1550px;
+    font-size: 25px;
+    left: 900px;
+}
+h1{
+    top: 1650px;
+    left: 900px;
+}
+h2{
+    top: 1750px;
+    left: 900px;
+}
+}
+.div8{
+    color: white;
+    text-align: center;
+    h1{
+    font-size: 50px;
+    position: absolute;
+    top: 1550px;
+    left: 550px;
+    }
+    h5{
+        display: none;
+        
+    }
+    h6{
+        font-size: 25px;
+    }
+    button{
+        width: 150px;
+        height: 45px;
+        position: absolute;
+        left: 600px;
+        top: 2850px;
+        border-radius: 20px;
+        color: white;
+        background-color: blueviolet;
+    }
+    button:hover{
+        color: black;
+        background-color: white;
+    }
+    }
+    .div00{
+        width: 100%;
+        position: absolute;
+        top: 1400px;
+    }
+    
+    .div10{
+        bottom: 200px;
+    }
+    #footsec{
+        border: 7px solid black;
+        background-color: black;
+        height: 200px;
+        padding-left: 0%;
+        margin: 0;
+        width: 1132px;
+    }
+    .cl{
+        display: block;
+    }
+    .cl1 li a{
+        padding: 0px; 
+        text-align: left;
+        font-size: 14px;
+    }
+    .cl3 p{
+        margin-left: 1px;
+    }
+}
